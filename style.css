@@ -1,0 +1,46 @@
+.house {
+	width: 200px;
+	height: 150px;
+	background-color: beige;
+	position: relative;
+}
+
+.roof {
+	width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 50px solid brown;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+.body {
+	width: 150px;
+	height: 100px;
+	background-color: white;
+	position: absolute;
+	bottom: 0;
+	left: 25px;
+}
+
+.door {
+	width: 40px;
+	height: 80px;
+	background-color: brown;
+	position: absolute;
+	bottom: 0;
+	left: 80px;
+}
+
+.window {
+	width: 50px;
+	height: 50px;
+	background-color: lightblue;
+	position: absolute;
+	top: 40px;
+	left: 30px;
+	border-radius: 50%;
+}
